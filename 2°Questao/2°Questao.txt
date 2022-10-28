@@ -1,0 +1,12 @@
+Ferramenta OpenSSL, também irá servir para geração de chaves assimétricas, ele é um programa que possui código aberto que possui um tooklkit de criptografias, podendo asim gerar chaves privadas e públicas.
+	
+	Utilizando co comando a seguir ele irá gerar a chave em um arquivo a separado (.pem)
+	"OPEN GENRSA - OUT<DIRETORIO>/<NOME DO ARQUIVO> <TAMANHO DA CHAVE>
+	
+	Isto fara com que ele gere o aquivo com a chave privada
+	
+	Para gerar a chave pública sera necessário a utilização da chave privada
+	
+	OPENSSL RSA -IN <DIRETORIO DA CHAVE PRIVADA> - PUBOUT -OUT <DIRETORIO QUE IRÁ CRIAR O ARQUIVO>
+		
+	
